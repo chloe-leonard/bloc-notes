@@ -11,13 +11,6 @@ class Note_Importante(Note):
         super().__init__(titre, contenu)
         self.importance = True
 
-"""
-class Note_NonImportante(Note):
-    def __init__(self, titre, contenu, non_importance):
-        super().__init__(titre, contenu)
-        self.importance = False
-"""
-
 class Blocnotes:
     def __init__(self):
         self.notes = []
